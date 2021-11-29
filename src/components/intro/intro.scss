@@ -30,23 +30,30 @@
         position: relative;
 
         .wrapper{
+            position: relative;
             width: 100%;
             height: 100%;
-            padding-left: 150px;
+            padding-left: 100px;
             display: flex;
             flex-direction: column;
             justify-content: center;
+            // background-color: yellowgreen;
 
             h1{
+                position: absolute;
+                top: 210px;
                 font-size: 60px;
                 margin: 10px 0;
             }
             h2{
-                font-size: 35px;
+                position: absolute;
+                top: 180px;
+                font-size: 30px;
             }
             h3{
                 font-size: 30px;
-
+                position: absolute;
+                top: 300px;
                 span{
                     font-size: inherit;
                     color: royalblue;
@@ -69,8 +76,8 @@
         }
         a{
             position: absolute;
-            bottom: 30%;
-            left: 25%;
+            top: 400px;
+            left: 210px;
 
             img{
                 width: 50px;
