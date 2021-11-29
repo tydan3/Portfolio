@@ -14,27 +14,27 @@ export default function Portfolio() {
             <div className="container">
                 <div className="item">
                     <img src="assets/wallpaper.jpg" alt="wallpaper" />
-                    <h3>Banking App</h3>
+                    <h3>My App</h3>
                 </div>
                 <div className="item">
                     <img src="assets/wallpaper.jpg" alt="wallpaper" />
-                    <h3>Banking App</h3>
+                    <h3>My App</h3>
                 </div>
                 <div className="item">
                     <img src="assets/wallpaper.jpg" alt="wallpaper" />
-                    <h3>Banking App</h3>
+                    <h3>My App</h3>
                 </div>
                 <div className="item">
                     <img src="assets/wallpaper.jpg" alt="wallpaper" />
-                    <h3>Banking App</h3>
+                    <h3>My App</h3>
                 </div>
                 <div className="item">
                     <img src="assets/wallpaper.jpg" alt="wallpaper" />
-                    <h3>Banking App</h3>
+                    <h3>My App</h3>
                 </div>
                 <div className="item">
                     <img src="assets/wallpaper.jpg" alt="wallpaper" />
-                    <h3>Banking App</h3>
+                    <h3>My App</h3>
                 </div>
             </div>
         </div>
