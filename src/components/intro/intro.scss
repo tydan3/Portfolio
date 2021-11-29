@@ -1,3 +1,5 @@
+@import "../../global.scss";
+
 .intro{
     background-color:white;
     display: flex;
@@ -9,7 +11,7 @@
             overflow: hidden;
             width: 550px;
             height: 550px;
-            background-color: crimson;
+            background-color: $mainColor;
             border-radius: 33%;
             display: flex;
             align-items: flex-end;
@@ -44,6 +46,25 @@
             }
             h3{
                 font-size: 30px;
+
+                span{
+                    font-size: inherit;
+                    color: royalblue;
+                }
+
+                .ityped-cursor{
+                    animation: blink 1s infinite;
+                }
+
+                @keyframes blink {
+                    50%{
+                        opacity: 1;
+                    }
+                    100%{
+                        opacity: 0;
+                    }
+                }
+
             }
         }
         a{
@@ -53,12 +74,12 @@
 
             img{
                 width: 50px;
-                animation: arrowBlink 1.5s infinite;
+                animation: arrowBlink 1s infinite;
             }
 
             @keyframes arrowBlink {
                 100%{
-                    opacity: 0.25;
+                    opacity: 0.20;
                 }
             }
 
