@@ -1,95 +1,93 @@
 @import "../../global.scss";
 
-.intro{
-    background-color:white;
-    display: flex;
+.intro {
+  background-color: white;
+  display: flex;
 
-    .left{
-        flex: 0.5;
+  .left {
+    flex: 0.5;
 
-        .imgContainer{
-            overflow: hidden;
-            width: 550px;
-            height: 550px;
-            background-color: $mainColor;
-            border-radius: 33%;
-            display: flex;
-            align-items: flex-end;
-            justify-content: center;
-            margin-top: 40px;
-            float: right;
+    .imgContainer {
+      overflow: hidden;
+      width: 550px;
+      height: 550px;
+      background-color: $mainColor;
+      border-radius: 33%;
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+      margin-top: 40px;
+      float: right;
 
-            img{
-                height: 85%;
-            }
-        }
+      img {
+        height: 85%;
+      }
     }
+  }
 
-    .right{
-        flex: 0.5;
-        position: relative;
+  .right {
+    flex: 0.5;
+    position: relative;
 
-        .wrapper{
-            position: relative;
-            width: 100%;
-            height: 100%;
-            padding-left: 100px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            // background-color: yellowgreen;
+    .wrapper {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      padding-left: 100px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      // background-color: yellowgreen;
 
-            h1{
-                position: absolute;
-                top: 210px;
-                font-size: 60px;
-                margin: 10px 0;
-            }
-            h2{
-                position: absolute;
-                top: 180px;
-                font-size: 30px;
-            }
-            h3{
-                font-size: 30px;
-                position: absolute;
-                top: 300px;
-                span{
-                    font-size: inherit;
-                    color: royalblue;
-                }
-
-                .ityped-cursor{
-                    animation: blink 1s infinite;
-                }
-
-                @keyframes blink {
-                    50%{
-                        opacity: 1;
-                    }
-                    100%{
-                        opacity: 0;
-                    }
-                }
-
-            }
+      h1 {
+        position: absolute;
+        top: 210px;
+        font-size: 60px;
+        margin: 10px 0;
+      }
+      h2 {
+        position: absolute;
+        top: 180px;
+        font-size: 30px;
+      }
+      h3 {
+        font-size: 30px;
+        position: absolute;
+        top: 300px;
+        span {
+          font-size: inherit;
+          color: royalblue;
         }
-        a{
-            position: absolute;
-            top: 400px;
-            left: 210px;
 
-            img{
-                width: 50px;
-                animation: arrowBlink 1s infinite;
-            }
-
-            @keyframes arrowBlink {
-                100%{
-                    opacity: 0.20;
-                }
-            }
-
+        .ityped-cursor {
+          animation: blink 1s infinite;
         }
+
+        @keyframes blink {
+          50% {
+            opacity: 1;
+          }
+          100% {
+            opacity: 0;
+          }
+        }
+      }
     }
+    a {
+      position: absolute;
+      top: 400px;
+      left: 210px;
+
+      img {
+        width: 50px;
+        animation: arrowBlink 1s infinite;
+      }
+
+      @keyframes arrowBlink {
+        100% {
+          opacity: 0.2;
+        }
+      }
+    }
+  }
 }
