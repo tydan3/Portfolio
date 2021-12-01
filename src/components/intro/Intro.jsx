@@ -30,6 +30,10 @@ export default function Intro() {
           <h3>
             Software <span ref={textRef}></span>
           </h3>
+          <p>
+            I am a recent Computer Science graduate from the <br />
+            University of Washington. Welcome to my portfolio.
+          </p>
         </div>
         <a href="#portfolio">
           <img src="assets/down.png" alt="down" />
