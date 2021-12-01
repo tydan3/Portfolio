@@ -6,21 +6,20 @@
 
   .left {
     flex: 0.5;
+    overflow: hidden;
 
     .imgContainer {
-      overflow: hidden;
-      width: 550px;
-      height: 550px;
+      width: 700px;
+      height: 700px;
       background-color: $mainColor;
-      border-radius: 33%;
+      border-radius: 50%;
       display: flex;
       align-items: flex-end;
       justify-content: center;
-      margin-top: 40px;
       float: right;
 
       img {
-        height: 85%;
+        height: 90%;
       }
     }
   }
@@ -33,27 +32,20 @@
       position: relative;
       width: 100%;
       height: 100%;
-      padding-left: 100px;
+      padding-left: 50px;
       display: flex;
       flex-direction: column;
       justify-content: center;
-      // background-color: yellowgreen;
 
       h1 {
-        position: absolute;
-        top: 210px;
         font-size: 60px;
         margin: 10px 0;
       }
       h2 {
-        position: absolute;
-        top: 180px;
-        font-size: 30px;
+        font-size: 35px;
       }
       h3 {
         font-size: 30px;
-        position: absolute;
-        top: 300px;
         span {
           font-size: inherit;
           color: royalblue;
@@ -75,11 +67,11 @@
     }
     a {
       position: absolute;
-      top: 400px;
-      left: 210px;
+      bottom: 10px;
+      left: 40%;
 
       img {
-        width: 50px;
+        width: 40px;
         animation: arrowBlink 1s infinite;
       }
 
