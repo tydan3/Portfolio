@@ -31,8 +31,8 @@ export default function Intro() {
             Software <span ref={textRef}></span>
           </h3>
           <p>
-            I am a recent Computer Science graduate from the University of
-            Washington. Welcome to my portfolio.
+            I am a recent CompSci graduate from the University of Washington.
+            Welcome to my portfolio.
           </p>
         </div>
         <a href="#portfolio">
