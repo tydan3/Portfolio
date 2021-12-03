@@ -47,7 +47,6 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    background-color: aquamarine;
 
     @include mobile {
       align-items: flex-start;
