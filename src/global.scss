@@ -1,5 +1,5 @@
 $mainColor: MidnightBlue;
-$width: 600px;
+$width: 1050px;
 @mixin mobile {
   @media (max-width: #{$width}) {
     @content;

@@ -55,14 +55,15 @@
     .wrapper {
       position: relative;
       padding: 50px;
-      height: 50%;
+      height: 60%;
       display: flex;
       flex-direction: column;
-      justify-content: space-between;
+      justify-content: space-evenly;
 
       @include mobile {
         align-items: center;
-        padding: 40px;
+        justify-content: space-between;
+        padding: 20px;
       }
 
       h1 {
@@ -100,12 +101,13 @@
           }
         }
       }
-    }
 
-    p {
-      font-size: 22px;
-      @include mobile {
-        font-size: 14px;
+      p {
+        font-size: 22px;
+        @include mobile {
+          text-align: center;
+          font-size: 14px;
+        }
       }
     }
 
@@ -115,7 +117,7 @@
       left: 40%;
       @include mobile {
         left: 45%;
-        bottom: 20%;
+        bottom: 10%;
       }
 
       img {
