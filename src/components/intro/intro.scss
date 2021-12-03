@@ -47,6 +47,11 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    background-color: aquamarine;
+
+    @include mobile {
+      align-items: flex-start;
+    }
 
     .wrapper {
       position: relative;
@@ -58,6 +63,7 @@
 
       @include mobile {
         align-items: center;
+        padding: 40px;
       }
 
       h1 {
@@ -100,7 +106,7 @@
     p {
       font-size: 22px;
       @include mobile {
-        font-size: 12px;
+        font-size: 14px;
       }
     }
 
@@ -110,6 +116,7 @@
       left: 40%;
       @include mobile {
         left: 45%;
+        bottom: 20%;
       }
 
       img {
