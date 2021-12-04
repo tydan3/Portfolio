@@ -37,7 +37,6 @@
     }
 
     form {
-      background-color: yellow;
       width: 70%;
       height: 70%;
       display: flex;
@@ -47,6 +46,7 @@
       @include mobile {
         justify-content: flex-start;
         width: 100%;
+        height: fit-content;
       }
 
       input {
@@ -100,24 +100,20 @@
     }
 
     .contactContainer {
-      // position: absolute;
-      // bottom: 5%;
       width: 80%;
       display: flex;
       flex-direction: row;
       justify-content: space-evenly;
+      padding-top: 30px;
 
       @include mobile {
         width: 100%;
         flex-direction: column;
         align-items: center;
+        justify-content: flex-start;
       }
 
       .itemContainer {
-        margin: 10px;
-        @include mobile {
-          margin: 0px;
-        }
         .icon {
           font-size: 18px;
           margin-right: 5px;

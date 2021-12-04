@@ -18,8 +18,10 @@ export default function Intro() {
   return (
     <div className="intro" id="intro">
       <div className="left">
-        <div className="imgContainer">
-          <img src="assets/person.png" alt="man" />
+        <div className="circle">
+          <div className="imgContainer">
+            <img src="assets/hotdogcat.jpg" alt="cat" />
+          </div>
         </div>
       </div>
 

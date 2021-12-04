@@ -17,25 +17,42 @@
     align-items: center;
     justify-content: center;
 
-    .imgContainer {
-      width: 630px;
-      height: 630px;
-      background-color: $mainColor;
+    .circle {
+      width: 570px;
+      height: 570px;
+      background-color: royalblue;
       border-radius: 50%;
+      border: 5px dotted white;
       display: flex;
-      align-items: flex-end;
+      align-items: center;
       justify-content: center;
-      float: right;
+
       @include mobile {
-        align-items: flex-end;
-        width: 285px;
-        height: 285px;
+        width: 290px;
+        height: 290px;
+        border: 3px dotted white;
       }
 
-      img {
-        height: 90%;
+      .imgContainer {
+        width: 550px;
+        height: 550px;
+        background-color: $mainColor;
+        border-radius: 50%;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        float: right;
         @include mobile {
-          height: 90%;
+          align-items: flex-end;
+          width: 270px;
+          height: 270px;
+        }
+
+        img {
+          height: 100%;
+          @include mobile {
+            height: 90%;
+          }
         }
       }
     }

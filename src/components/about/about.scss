@@ -1,23 +1,74 @@
 @import "../../global.scss";
 
-.about {
-  background-color: white;
+.a {
   display: flex;
-  flex-direction: column;
   align-items: center;
 
-  h1 {
-    font-size: 50px;
+  .a-left {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 100%;
     @include mobile {
-      font-size: 20px;
+      display: none;
+    }
+
+    .a-card.bg {
+      position: absolute;
+      top: 50px;
+      left: 50px;
+      background-color: royalblue;
+    }
+
+    .a-card {
+      width: 60%;
+      height: 70vh;
+      border-radius: 30px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .a-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
     }
   }
-  h3 {
-    font-size: 30px;
-    font-weight: 300;
-    margin: 10px;
+
+  .a-right {
+    flex: 1.5;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
     @include mobile {
-      font-size: 15px;
+      align-items: center;
+    }
+
+    .a-title {
+      font-weight: 400;
+      @include mobile {
+        text-align: center;
+      }
+    }
+
+    .a-sub {
+      margin: 20px 0px;
+      @include mobile {
+        text-align: center;
+      }
+    }
+
+    .a-desc {
+      margin-right: 30%;
+      font-weight: 300;
+      @include mobile {
+        margin: 10px;
+        text-align: center;
+      }
     }
   }
 }
