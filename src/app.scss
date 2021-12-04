@@ -1,3 +1,5 @@
+@import "global.scss";
+
 .app {
   height: 100vh;
 
@@ -8,6 +10,9 @@
     top: 70px;
     scroll-behavior: smooth;
     scroll-snap-type: y mandatory;
+    @include mobile {
+      scroll-snap-type: none;
+    }
     scrollbar-width: none;
     &::-webkit-scrollbar {
       display: none;
