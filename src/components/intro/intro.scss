@@ -50,9 +50,6 @@
 
         img {
           height: 100%;
-          @include mobile {
-            height: 90%;
-          }
         }
       }
     }
