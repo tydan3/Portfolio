@@ -8,10 +8,10 @@ export default function Intro() {
   useEffect(() => {
     init(textRef.current, {
       showCursor: true,
-      backDelay: 1500,
-      typeSpeed: 50,
-      backSpeed: 60,
-      strings: ["Developer", "Engineer", "Designer"],
+      backDelay: 1000,
+      typeSpeed: 40,
+      backSpeed: 40,
+      strings: ["Developer", "Engineer"],
     });
   }, []);
 
@@ -32,7 +32,7 @@ export default function Intro() {
           <h3>
             Software <span ref={textRef}></span>
           </h3>
-          <h4> Welcome to my portfolio.</h4>
+          <p> Welcome to my portfolio.</p>
         </div>
         <a href="#about">
           <img src="assets/down.png" alt="down" />
