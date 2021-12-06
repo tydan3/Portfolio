@@ -3,17 +3,10 @@ import "./about.scss";
 export default function About() {
   return (
     <div className="a" id="about">
-      <div className="a-left">
-        <div className="a-card bg"></div>
-        <div className="a-card">
-          <img src="assets/hotdogcat.jpg" alt="cat" className="a-img" />
-        </div>
-      </div>
-      <div className="a-right">
+      <div className="a-container">
         <h1 className="a-title">About Me</h1>
         <p className="a-sub">
-          Highly motivated to apply academic experience and learn new
-          technologies.
+          Motivated to apply academic experience and learn new technologies.
         </p>
         <p className="a-desc">
           I recently graduated from the University of Washington with a BA in

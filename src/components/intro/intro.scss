@@ -2,6 +2,7 @@
 
 .intro {
   display: flex;
+  background-color: white;
 
   @include mobile {
     flex-direction: column;
@@ -17,8 +18,8 @@
     justify-content: center;
 
     .circle {
-      width: 575px;
-      height: 575px;
+      width: 525px;
+      height: 525px;
       background-color: $mainColor;
       border-radius: 50%;
       display: flex;
@@ -27,13 +28,13 @@
       box-shadow: 3px 3px 5px rgba(80, 78, 78, 0.5);
 
       @include mobile {
-        width: 290px;
-        height: 290px;
+        width: 245px;
+        height: 245px;
       }
 
       .imgContainer {
-        width: 550px;
-        height: 550px;
+        width: 500px;
+        height: 500px;
         background-color: $mainColor;
         border-radius: 50%;
         display: flex;
@@ -42,12 +43,13 @@
         float: right;
         @include mobile {
           align-items: flex-end;
-          width: 270px;
-          height: 270px;
+          width: 220px;
+          height: 220px;
         }
 
         img {
           height: 100%;
+          width: 100%;
         }
       }
     }
@@ -120,7 +122,7 @@
         font-weight: 300;
         margin: 10px;
         @include mobile {
-          font-size: 15px;
+          font-size: 18px;
         }
       }
     }
