@@ -1,0 +1,23 @@
+@import "../../global.scss";
+
+.projects {
+  display: flex;
+  // background-color: powderblue;
+  .container {
+    flex: 1.5;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    background-color: purple;
+    h1 {
+      margin: 40px;
+      font-weight: 400;
+      font-size: 50px;
+      text-align: center;
+    }
+    .list {
+      background-color: powderblue;
+      height: 80%;
+    }
+  }
+}
