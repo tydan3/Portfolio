@@ -10,7 +10,7 @@
   }
 
   .aboutContainer {
-    height: 40%;
+    height: 320px;
     h1 {
       font-weight: 400;
       font-size: 50px;
@@ -47,9 +47,54 @@
   }
 
   .techContainer {
-    height: 40%;
+    height: 460px;
     width: 100%;
     display: flex;
     flex-direction: column;
+    align-items: center;
+
+    h2 {
+      font-weight: 400;
+      font-size: 25px;
+      margin: 0px 0px 25px;
+    }
+
+    .badgeContainer {
+      width: 700px;
+      height: 400px;
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      flex-wrap: wrap;
+      // border: 1px dotted black;
+
+      .badge {
+        width: 100px;
+        height: 100px;
+        margin: 5px 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .logo {
+          height: 70px;
+          width: 70px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          img {
+            width: 80%;
+            height: 90%;
+            object-fit: scale-down;
+          }
+        }
+        .name {
+          h3 {
+            font-size: 16px;
+            font-weight: 500;
+          }
+        }
+      }
+    }
   }
 }
