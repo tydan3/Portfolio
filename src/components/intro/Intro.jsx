@@ -34,10 +34,10 @@ export default function Intro() {
           </h3>
           <p> Welcome to my portfolio.</p>
         </div>
-        <a href="#about">
-          <img src="assets/down.png" alt="down" />
-        </a>
       </div>
+      <a href="#about">
+        <img src="assets/down.png" alt="down" />
+      </a>
     </div>
   );
 }

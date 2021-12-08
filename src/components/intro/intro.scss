@@ -3,6 +3,7 @@
 .intro {
   display: flex;
   background-color: white;
+  box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
 
   @include mobile {
     flex-direction: column;
@@ -126,25 +127,31 @@
         }
       }
     }
+  }
+  a {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    bottom: 10px;
+    @include mobile {
+      bottom: 10%;
+    }
 
-    a {
-      position: absolute;
-      bottom: 10px;
-      left: 40%;
+    img {
+      width: 50px;
+      animation: arrowBlink 1s infinite;
+
       @include mobile {
-        left: 45%;
-        bottom: 10%;
-      }
-
-      img {
         width: 40px;
-        animation: arrowBlink 1s infinite;
       }
+    }
 
-      @keyframes arrowBlink {
-        100% {
-          opacity: 0.2;
-        }
+    @keyframes arrowBlink {
+      100% {
+        opacity: 0.2;
       }
     }
   }
