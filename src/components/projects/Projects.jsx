@@ -41,8 +41,7 @@ export default function Projects() {
           <div
             className="card"
             onClick={() => {
-              window.location.href = d.link;
-              return null;
+              window.open(d.link);
             }}
           >
             <div className="top">
