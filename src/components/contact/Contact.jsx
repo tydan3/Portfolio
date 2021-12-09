@@ -1,7 +1,7 @@
 import { useState, useRef } from "react";
 import "./contact.scss";
 import emailjs from "emailjs-com";
-import { Person, Mail } from "@material-ui/icons";
+import { Mail } from "@material-ui/icons";
 
 export default function Contact() {
   const [message, setMessage] = useState(false);
@@ -47,9 +47,21 @@ export default function Contact() {
           )}
         </form>
         <div className="contactContainer">
-          <div className="itemContainer">
-            <Person className="icon" />
-            <span>+1 (253) 391-0447</span>
+          <div className="linkContainer">
+            <div
+              className="link"
+              onClick={() =>
+                window.open("https://www.linkedin.com/in/daniel-ty-6422111a6/")
+              }
+            >
+              <img src="./assets/logos/linkedin.png" alt="linkedin" />
+            </div>
+            <div
+              className="link"
+              onClick={() => window.open("https://github.com/tydan3")}
+            >
+              <img src="./assets/logos/github.png" alt="github" />
+            </div>
           </div>
           <div className="itemContainer">
             <Mail className="icon" />

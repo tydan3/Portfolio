@@ -1,9 +1,9 @@
 @import "../../global.scss";
 
 .contact {
-  display: flex;
   background-color: white;
   box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
+  display: flex;
 
   @include mobile {
     flex-direction: column;
@@ -112,38 +112,49 @@
       flex-direction: row;
       justify-content: space-evenly;
       padding-top: 30px;
+      display: none;
 
       @include mobile {
+        display: contents;
         width: 100%;
         flex-direction: column;
         align-items: center;
         justify-content: flex-start;
       }
 
-      .itemContainer {
-        color: $mainColor;
+      .linkContainer {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 160px;
 
-        .icon {
-          font-size: 18px;
-          margin-right: 5px;
+        .link {
+          display: flex;
+          align-items: flex-end;
+          margin: 15px;
 
-          @include mobile {
-            font-size: 14px;
-          }
-        }
-
-        span {
-          font-size: 14px;
-          font-weight: 500;
-
-          @include mobile {
-            font-size: 12px;
+          img {
+            width: 30px;
+            height: 30px;
+            object-fit: scale-down;
           }
         }
       }
 
-      @include mobile {
-        flex: 1.5;
+      .itemContainer {
+        color: $mainColor;
+        width: 160px;
+
+        .icon {
+          font-size: 18px;
+          margin-right: 5px;
+        }
+
+        span {
+          font-size: 12px;
+          font-weight: 500;
+        }
       }
     }
   }

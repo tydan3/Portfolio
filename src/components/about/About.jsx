@@ -44,13 +44,13 @@ export default function About() {
     },
     {
       id: 9,
-      img: "./assets/logos/sqlserver.png",
-      name: "SQL Server",
+      img: "./assets/logos/mssql.png",
+      name: "MS SQL Server",
     },
     {
       id: 10,
       img: "./assets/logos/androidstudio.png",
-      name: "AndroidStudio",
+      name: "Android Studio",
     },
     {
       id: 11,
@@ -70,19 +70,21 @@ export default function About() {
       <div className="aboutContainer">
         <h1>About Me</h1>
         <p className="a-sub">
-          Highly motivated to apply academic experience and learn new
-          technologies.
+          Highly motivated to apply academic experience and learn new concepts.
         </p>
         <p className="a-desc">
-          I recently graduated from the University of Washington with a BA in
-          Computer Science. I have experience with algorithims/data structures,
-          object-oriented programming, database systems design,
-          front-end/back-end development, mobile programming, and web game
-          development.
+          Recently graduated from the University of Washington with a BA in
+          Computer Science.
+          <p className="a-desc-more">
+            {" "}
+            Have experience with algorithims/data structures, OOP, relational
+            databases, full-stack development, android development, and web
+            development.
+          </p>
         </p>
       </div>
       <div className="techContainer">
-        <h2>Technologies I've Used</h2>
+        <h2>Technologies I Have Used</h2>
         <div className="badgeContainer">
           {data.map((d) => (
             <div className="badge">

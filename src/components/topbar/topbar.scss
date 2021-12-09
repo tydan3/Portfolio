@@ -24,15 +24,26 @@
       .logo {
         font-size: 40px;
         font-weight: 700;
+        width: 130px;
+        display: flex;
+        justify-content: center;
         text-decoration: none;
         color: inherit;
-        margin-right: 40px;
+        margin-right: 30px;
+        transition: all 0.5s ease;
+
+        &:hover {
+          transform: scale(1.1);
+        }
+        @include mobile {
+          margin-right: 20px;
+        }
       }
 
       .itemContainer {
         display: flex;
         align-items: center;
-        margin-right: 30px;
+        margin-right: 20px;
 
         @include mobile {
           display: none;
@@ -46,6 +57,27 @@
         span {
           font-size: 15px;
           font-weight: 500;
+        }
+      }
+
+      .link {
+        margin-right: 20px;
+        display: flex;
+        align-items: flex-end;
+        transition: all 0.5s ease;
+
+        &:hover {
+          transform: scale(1.2);
+          cursor: pointer;
+        }
+
+        @include mobile {
+          display: none;
+        }
+        img {
+          width: 30px;
+          height: 30px;
+          object-fit: scale-down;
         }
       }
     }
