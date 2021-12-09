@@ -17,8 +17,8 @@
     justify-content: center;
 
     .circle {
-      width: 490px;
-      height: 490px;
+      width: 450px;
+      height: 450px;
       background-color: $mainColor;
       border-radius: 50%;
       display: flex;
@@ -27,13 +27,13 @@
       box-shadow: 3px 3px 5px rgba(80, 78, 78, 0.5);
 
       @include mobile {
-        width: 245px;
-        height: 245px;
+        width: 210px;
+        height: 210px;
       }
 
       .imgContainer {
-        width: 440px;
-        height: 440px;
+        width: 380px;
+        height: 380px;
         background-color: $mainColor;
         border-radius: 50%;
         display: flex;
@@ -42,8 +42,8 @@
         float: right;
         @include mobile {
           align-items: flex-end;
-          width: 220px;
-          height: 220px;
+          width: 180px;
+          height: 180px;
         }
 
         img {
@@ -136,7 +136,7 @@
     text-align: center;
     bottom: 10px;
     @include mobile {
-      bottom: 10%;
+      bottom: 5%;
     }
 
     img {
