@@ -2,13 +2,13 @@ import "./projects.scss";
 
 export default function Projects() {
   const data = [
-    {
-      id: 1,
-      name: "Dad Jokes Finder",
-      img: "./assets/dad.png",
-      desc: "Dad joke search page. Made with React functional components and hooks as well as some CSS. Connects to a web api for the dad joke data.",
-      link: "https://tydan3.github.io/Dad-Jokes-Finder/",
-    },
+    // {
+    //   id: 1,
+    //   name: "Dad Jokes Finder",
+    //   img: "./assets/dad.png",
+    //   desc: "Dad joke search page. Made with React functional components and hooks as well as some CSS. Connects to a web api for the dad joke data.",
+    //   link: "https://tydan3.github.io/Dad-Jokes-Finder/",
+    // },
     {
       id: 2,
       name: "Realm Defense Force",
