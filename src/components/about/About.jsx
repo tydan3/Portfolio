@@ -8,6 +8,11 @@ export default function About() {
       name: "Java",
     },
     {
+      id: 13,
+      img: "./assets/logos/kotlin.png",
+      name: "Kotlin",
+    },
+    {
       id: 2,
       img: "./assets/logos/c.png",
       name: "C",
@@ -70,7 +75,7 @@ export default function About() {
       <div className="aboutContainer">
         <h1>About Me</h1>
         <p className="a-sub">
-          Highly motivated to apply academic experience and learn new concepts.
+          Highly motivated to apply academic experience and learn new skills.
         </p>
         <p className="a-desc">
           Recently graduated from the University of Washington Tacoma with a BA
