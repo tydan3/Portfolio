@@ -73,14 +73,14 @@ export default function About() {
           Highly motivated to apply academic experience and learn new concepts.
         </p>
         <p className="a-desc">
-          Recently graduated from the University of Washington with a BA in
-          Computer Science.
-          <p className="a-desc-more">
-            {" "}
-            Have experience with algorithims/data structures, OOP, relational
-            databases, full-stack development, android development, and web
-            development.
-          </p>
+          Recently graduated from the University of Washington Tacoma with a BA
+          in Computer Science, a 3.59 GPA, and several Dean's list awards.
+        </p>
+        <p className="a-desc">
+          Have taken courses in Algorithms/Data Structures, Object-Oriented
+          Programming, Mobile Programming, Operating Systems, Database Systems
+          Design, Web Game Development, Software Development and QA, Advanced
+          Software Engineering, and Computer Architecture.
         </p>
       </div>
       <div className="techContainer">
