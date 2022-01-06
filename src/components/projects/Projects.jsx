@@ -2,18 +2,18 @@ import "./projects.scss";
 
 export default function Projects() {
   const data = [
-    // {
-    //   id: 1,
-    //   name: "Dad Jokes Finder",
-    //   img: "./assets/dad.png",
-    //   desc: "Dad joke search page. Made with React functional components and hooks as well as some CSS. Connects to a web api for the dad joke data.",
-    //   link: "https://tydan3.github.io/Dad-Jokes-Finder/",
-    // },
+    {
+      id: 1,
+      name: "Dad Jokes Finder",
+      img: "./assets/dad.png",
+      desc: "Dad joke search page. Made with React functional components and hooks, using component lifecycle and state. Connects to a RESTful API for the dad joke data.",
+      link: "https://tydan3.github.io/Dad-Jokes-Finder/",
+    },
     {
       id: 2,
       name: "Realm Defense Force",
       img: "./assets/rdf.png",
-      desc: "A tower defense web game. Has four levels, multiple enemies, and several upgradeable towers. Voted second highest in the course. Used JavaScript, HTML, and CSS.",
+      desc: "A tower defense web game. Has four levels, multiple enemies, and several upgradeable towers. Used JavaScript, HTML, and CSS.",
       link: "https://tydan3.github.io/Realm-Defense-Force/",
     },
     {
