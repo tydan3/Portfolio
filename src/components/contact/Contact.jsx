@@ -65,7 +65,7 @@ export default function Contact() {
           </div>
           <div className="itemContainer">
             <Mail className="icon" />
-            <span>tydaniel270@gmail.com</span>
+            <span>tydan.wk@gmail.com</span>
           </div>
         </div>
       </div>
