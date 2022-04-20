@@ -8,39 +8,35 @@ export default function About() {
       name: "Java",
     },
     {
-      id: 13,
-      img: "./assets/logos/kotlin.png",
-      name: "Kotlin",
-    },
-    {
       id: 2,
-      img: "./assets/logos/c.png",
-      name: "C",
-    },
-    {
-      id: 3,
       img: "./assets/logos/javascript.png",
       name: "JavaScript",
     },
+
     {
-      id: 4,
-      img: "./assets/logos/html.png",
-      name: "Html",
-    },
-    {
-      id: 5,
-      img: "./assets/logos/css.png",
-      name: "Css",
-    },
-    {
-      id: 6,
+      id: 3,
       img: "./assets/logos/react.png",
       name: "React",
     },
     {
-      id: 7,
+      id: 4,
       img: "./assets/logos/nodeJS.png",
       name: "Node.js",
+    },
+    {
+      id: 5,
+      img: "./assets/logos/expressjs.png",
+      name: "Express.js",
+    },
+    {
+      id: 6,
+      img: "./assets/logos/html.png",
+      name: "Html",
+    },
+    {
+      id: 7,
+      img: "./assets/logos/css.png",
+      name: "Css",
     },
     {
       id: 8,
@@ -49,22 +45,36 @@ export default function About() {
     },
     {
       id: 9,
+      img: "./assets/logos/kotlin.png",
+      name: "Kotlin",
+    },
+    {
+      id: 10,
+      img: "./assets/logos/c.png",
+      name: "C",
+    },
+    {
+      id: 11,
+      img: "./assets/logos/mongo.png",
+      name: "MongoDb",
+    },
+    {
+      id: 12,
       img: "./assets/logos/mssql.png",
       name: "MS SQL Server",
     },
     {
-      id: 10,
+      id: 13,
       img: "./assets/logos/androidstudio.png",
       name: "Android Studio",
     },
     {
-      id: 11,
+      id: 14,
       img: "./assets/logos/git.png",
       name: "Git",
     },
-
     {
-      id: 12,
+      id: 15,
       img: "./assets/logos/linux.png",
       name: "Linux",
     },
@@ -75,17 +85,18 @@ export default function About() {
       <div className="aboutContainer">
         <h1>About Me</h1>
         <p className="a-sub">
-          Highly motivated to apply academic experience and learn new skills.
+          Highly driven to apply programming experience and learn new skills.
         </p>
         <p className="a-desc">
-          Recently graduated from the University of Washington Tacoma with a BA
-          in Computer Science, a 3.59 GPA, and several Dean's list awards.
+          Recently graduated from the University of Washington with a BA in
+          Computer Science, a 3.59 GPA, and a Dean's list award for High
+          Scholarship.
         </p>
         <p className="a-desc">
-          Have taken courses in Algorithms/Data Structures, Object-Oriented
-          Programming, Mobile Programming, Operating Systems, Database Systems
-          Design, Web Game Development, Software Development and QA, Advanced
-          Software Engineering, and Computer Architecture.
+          Excelled in courses such as Algorithms/Data Structures,
+          Object-Oriented Programming, Database Systems Design, Operating
+          Systems, Software Development/QA, Advanced Software Engineering, and
+          Mobile Programming.
         </p>
       </div>
       <div className="techContainer">
