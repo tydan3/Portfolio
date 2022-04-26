@@ -37,7 +37,7 @@
         background-color: $mainColor;
         border-radius: 50%;
         display: flex;
-        align-items: flex-end;
+        align-items: flex-start;
         justify-content: center;
         float: right;
         @include mobile {
@@ -47,8 +47,8 @@
         }
 
         img {
-          height: 100%;
-          width: 100%;
+          height: max-content;
+          width: max-content;
         }
       }
     }

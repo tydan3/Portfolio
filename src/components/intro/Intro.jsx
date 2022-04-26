@@ -20,7 +20,7 @@ export default function Intro() {
       <div className="left">
         <div className="circle">
           <div className="imgContainer">
-            <img src="assets/me.jpg" alt="me" />
+            <img src="assets/me2.jpg" alt="me" />
           </div>
         </div>
       </div>
