@@ -20,7 +20,9 @@ export default function Projects() {
       id: 3,
       name: "Ourmaps",
       img: "./assets/ourmaps.png",
-      desc: "A shared map web app where users can create/place 'pins' on a map and view 'pins' placed by other users. This is a full-stack app utilizing the MERN stack, AWS (EB and CodePipeline), and GitHub Pages.",
+      desc:
+        "A shared map web app where users can create/place 'pins' on a map and view 'pins' placed by other users. This is a full-stack app built using the MERN stack. Utilizes MongoDB Atlas for" +
+        " cloud database; Express/Node for REST API service; React for UI. Deployed using AWS (EB and CodePipeline) and GitHub Pages.",
       link: "https://ourmaps.us",
       featured: true,
     },
