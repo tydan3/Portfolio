@@ -6,28 +6,36 @@ export default function Projects() {
       id: 1,
       name: "Dad Jokes Finder",
       img: "./assets/dad.png",
-      desc: "Dad joke search page. Made with React functional components and hooks, using component lifecycle and state. Connects to a RESTful API for the dad joke data.",
+      desc: "Dad joke search page. Fetches from an open source RESTful API service for joke data. Built using React components and hooks, using component lifecycle and state.",
       link: "https://tydan3.github.io/Dad-Jokes-Finder/",
     },
     {
       id: 2,
       name: "Realm Defense Force",
       img: "./assets/rdf.png",
-      desc: "A tower defense web game. Has four levels, multiple enemies, and several upgradeable towers. Used JavaScript, HTML, and CSS.",
+      desc: "A tower defense web game. Has four levels, multiple enemy types, and a variety of upgradeable towers. Built with JavaScript (vanilla), HTML, and CSS.",
       link: "https://tydan3.github.io/Realm-Defense-Force/",
     },
     {
       id: 3,
-      name: "T4G2",
-      img: "./assets/t4g2.png",
-      desc: "An Android messaging app with sign-in/registration, chat, contacts, weather, and home page. Used Java in Android Studio for front-end and Node.js for back-end.",
-      link: "https://youtu.be/HdQHP8s3pQ0",
+      name: "Ourmaps",
+      img: "./assets/ourmaps.png",
+      desc: "A shared map web app where users can create/place 'pins' on a map and view 'pins' placed by other users. This is a full-stack app utilizing the MERN stack, AWS (EB and CodePipeline), and GitHub Pages.",
+      link: "https://ourmaps.us",
+      featured: true,
     },
     {
       id: 4,
+      name: "T4G2",
+      img: "./assets/t4g2.png",
+      desc: "An Android messaging app. Features user registration & authentication, chat rooms, contacts page, weather page, and home page. Built with Java and Express.js.",
+      link: "https://youtu.be/HdQHP8s3pQ0",
+    },
+    {
+      id: 5,
       name: "PC Builder",
       img: "./assets/pcbuilder.png",
-      desc: "A relational database project where users can create/save pc builds. Used mssql server for database and Java Swing for GUI.",
+      desc: "A relational database project where users can pick PC parts, view compatibility, and create/save PC builds. Built using Microsoft SQL Server for the relational database and Java (Swing) for the GUI.",
       link: "https://github.com/tydan3/Database-Project-PC-Builder",
     },
   ];
@@ -37,7 +45,7 @@ export default function Projects() {
       <div className="container">
         {data.map((d) => (
           <div
-            className="card"
+            className={d.featured ? "card featured" : "card"}
             onClick={() => {
               window.open(d.link);
             }}
