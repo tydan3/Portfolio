@@ -4,17 +4,17 @@ export default function Projects() {
   const data = [
     {
       id: 1,
-      name: "Dad Jokes Finder",
-      img: "./assets/dad.png",
-      desc: "Dad joke search page. Fetches from an open source RESTful API service for joke data. Built using React components and hooks, using component lifecycle and state.",
-      link: "https://tydan3.github.io/Dad-Jokes-Finder/",
-    },
-    {
-      id: 2,
       name: "Realm Defense Force",
       img: "./assets/rdf.png",
       desc: "A tower defense web game. Has four levels, multiple enemy types, and a variety of upgradeable towers. Built with JavaScript (vanilla), HTML, and CSS.",
       link: "https://tydan3.github.io/Realm-Defense-Force/",
+    },
+    {
+      id: 2,
+      name: "Puns 'N' Jokes",
+      img: "./assets/punsnjokes.png",
+      desc: "A web app that searches for puns & jokes. Fetches from an open source RESTful API service for pun/joke data. Built using React components and hooks, using component lifecycle and state.",
+      link: "https://tydan3.github.io/Puns-N-Jokes/",
     },
     {
       id: 3,
