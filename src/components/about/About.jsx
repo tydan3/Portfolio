@@ -56,7 +56,7 @@ export default function About() {
     {
       id: 11,
       img: "./assets/logos/mongo.png",
-      name: "MongoDb",
+      name: "MongoDB",
     },
     {
       id: 12,

@@ -34,7 +34,7 @@ export default function Contact() {
         <img src="assets/shake.svg" alt="" />
       </div>
       <div className="right">
-        <h2>Contact</h2>
+        <h2>Send an Email</h2>
         <form ref={formRef} onSubmit={handleSubmit}>
           <input type="text" placeholder="Email" name="user_email" />
           <input type="text" placeholder="Subject" name="user_subject" />

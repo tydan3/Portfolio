@@ -27,7 +27,7 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
           <div className="itemContainer">
             <GetApp className="icon" />
             <a href="./assets/Resume_Daniel_Ty.pdf" download>
-              My Resume
+              Resume
             </a>
           </div>
           <div className="itemContainer">
