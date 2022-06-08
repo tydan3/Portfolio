@@ -1,5 +1,5 @@
 import "./topbar.scss";
-import { Mail } from "@material-ui/icons";
+import { Mail, Phone, GetApp } from "@material-ui/icons";
 
 export default function Topbar({ menuOpen, setMenuOpen }) {
   return (
@@ -25,8 +25,18 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
             <img src="./assets/logos/github.png" alt="github" />
           </div>
           <div className="itemContainer">
+            <GetApp className="icon" />
+            <a href="./assets/Resume_Daniel_Ty.pdf" download>
+              My Resume
+            </a>
+          </div>
+          <div className="itemContainer">
             <Mail className="icon" />
             <span>tydan.wk@gmail.com</span>
+          </div>
+          <div className="itemContainer">
+            <Phone className="icon" />
+            <span>+1 (253) 391-0447</span>
           </div>
         </div>
         <div className="right">
