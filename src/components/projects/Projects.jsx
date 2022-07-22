@@ -43,7 +43,10 @@ export default function Projects() {
   ];
   return (
     <div className="projects" id="projects">
-      <h1>Featured Projects</h1>
+      <div className="titleContainer">
+        <h1>Featured Projects</h1>
+      </div>
+
       <div className="container">
         {data.map((d) => (
           <div

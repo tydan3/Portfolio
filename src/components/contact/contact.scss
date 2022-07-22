@@ -1,7 +1,7 @@
 @import "../../global.scss";
 
 .contact {
-  background-color: hsl(0, 0%, 98%);
+  background-color: $accentColor;
   box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
   display: flex;
 
@@ -85,7 +85,7 @@
       button {
         width: 200px;
         height: 30px;
-        color: white;
+        color: $backgroundColor;
         background-color: $mainColor;
         border: none;
         border-radius: 10px;

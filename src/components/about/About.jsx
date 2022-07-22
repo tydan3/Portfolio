@@ -88,7 +88,7 @@ export default function About() {
           Highly driven to apply programming experience and learn new skills.
         </p>
         <p className="a-desc">
-          Recently graduated from the University of Washington with a BA in
+          Recently graduated from the University of Washington with a BS in
           Computer Science, a 3.59 GPA, and a Dean's list award for High
           Scholarship.
         </p>
